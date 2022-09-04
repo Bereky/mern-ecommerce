@@ -1,6 +1,7 @@
+/* Schema for the Item document */
+
 const mongoose = require("mongoose")
 
-/* Schema for the Item document */
 const itemSchema = mongoose.Schema(
     {
         name: {
