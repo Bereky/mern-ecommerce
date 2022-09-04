@@ -1,0 +1,19 @@
+{
+  "name": "shema",
+  "version": "1.0.0",
+  "description": "Shema MERN Stack Ecommerce application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bereky/shema-mern-ecommerce.git"
+  },
+  "author": "Bereket Lemma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bereky/shema-mern-ecommerce/issues"
+  },
+  "homepage": "https://github.com/Bereky/shema-mern-ecommerce#readme"
+}
