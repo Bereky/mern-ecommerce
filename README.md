@@ -17,9 +17,9 @@ Preview the project with [Live Demo](https://timely-lokum-191a6b.netlify.app)
 
 ## Dependencies
 
-- Nodejs - The runtime environmnet where the application runs
-- Reactjs - Javascript comonent based UI library
-- MongoDB - Our NoSQL database
+- Nodejs - The runtime environmet of the application
+- Reactjs - Component based UI library
+- MongoDB - NoSQL database
 - Expressjs - Framework to handle routes and requests
 - Mongoose - MongoDB object modeling tool to model the database schema
 
