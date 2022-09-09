@@ -1,0 +1,8 @@
+
+.header__container {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px -6px 10px 0px;
+}

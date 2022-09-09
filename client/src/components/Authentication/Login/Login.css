@@ -1,0 +1,15 @@
+
+
+.login__auth__container {
+    height: auto;
+    width: 100%;
+}
+
+.login__auth {
+    height: 100%;
+    width: 100%;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

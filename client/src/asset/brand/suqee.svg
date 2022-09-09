@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="916" height="449" viewBox="0 0 916 449">
+  <defs>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+  </defs>
+  <g id="Group_130" data-name="Group 130" transform="translate(-60 -114)">
+    <g id="Ellipse_56" data-name="Ellipse 56" transform="translate(83 154)" fill="#fff" stroke="#000" stroke-width="37">
+      <ellipse cx="176" cy="169.5" rx="176" ry="169.5" stroke="none"/>
+      <ellipse cx="176" cy="169.5" rx="157.5" ry="151" fill="none"/>
+    </g>
+    <g id="Ellipse_57" data-name="Ellipse 57" transform="translate(498 175)" fill="none" stroke="#000" stroke-width="37">
+      <ellipse cx="125.5" cy="123.5" rx="125.5" ry="123.5" stroke="none"/>
+      <ellipse cx="125.5" cy="123.5" rx="107" ry="105" fill="none"/>
+    </g>
+    <text id="ee" transform="translate(787 423)" font-size="168" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">ee</tspan></text>
+    <g id="Rectangle_1832" data-name="Rectangle 1832" transform="matrix(0.809, -0.588, 0.588, 0.809, 685.793, 383.663)" fill="none" stroke="#000" stroke-width="37">
+      <rect id="fill" width="25" height="58" stroke="none"/>
+      <path d="M0,18.5h25M18.5,0v58M25,39.5h-25M6.5,58v-58" fill="none" clip-path="url(#clip)"/>
+    </g>
+    <rect id="Rectangle_1833" data-name="Rectangle 1833" width="348" height="141" transform="translate(60 422)" fill="#fff"/>
+    <rect id="Rectangle_1834" data-name="Rectangle 1834" width="40" height="49" transform="translate(239 114)"/>
+    <rect id="Rectangle_1835" data-name="Rectangle 1835" width="47" height="29" transform="translate(428 303)"/>
+  </g>
+</svg>

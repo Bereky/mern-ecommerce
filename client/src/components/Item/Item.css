@@ -1,0 +1,27 @@
+
+
+.item__container {
+    height: auto;
+    width: 100%;
+}
+
+.detail__and__carousel__container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.item__description__container {
+    height: auto;
+    width: 100%;
+}
+
+.related__items__container {
+    height: auto;
+    width: 100%;
+}

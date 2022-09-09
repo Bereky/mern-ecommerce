@@ -1,0 +1,80 @@
+
+.login__card__container {
+    height: 500px;
+    width:420px;
+    margin: auto;
+    box-shadow: 0px 2px 5px -2px;
+}
+
+.login__card {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.login__header {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.login__header h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+.login__inputs {
+    height: 60%;
+    width: 100%;
+}
+
+.input__container {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.input__label {
+    height: 40%;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.login__input {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__button__container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__button {
+    height: 60%;
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: #FFE26E;
+    border-color: #FFE26E;
+    border-style: dashed;
+    font-weight:bold;
+}
+
+.login__other__actions {
+    height: 20%;
+    width: 100%;
+}
