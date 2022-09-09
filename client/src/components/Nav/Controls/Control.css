@@ -1,0 +1,39 @@
+
+
+.control__bar__container {
+    height: auto;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.controls__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 50px;
+}
+
+.control {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #FFE26E;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.control:hover {
+    background-color: #FFE26E;
+    color: black;
+}

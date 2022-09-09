@@ -1,0 +1,39 @@
+
+.user__account__container {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account__container {
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+}
+
+.account__header {
+    width: 90%;
+    height: 80px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.account__header h1{
+    width: 100%;
+    height: auto;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.account__page__detail {
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+} 

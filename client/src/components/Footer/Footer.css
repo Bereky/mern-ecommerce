@@ -1,0 +1,137 @@
+
+
+.footer__container {
+    height: auto;
+    width: 100%;
+    background-color: #FFE26E;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__items__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__help__container {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__help__header {
+    height: 40%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.footer__help__header h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    align-self: center;
+}
+
+.fotter__help__links {
+    margin: 0%;
+    padding: 0%;
+    height: 70%;
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contact__container {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__contact__header {
+    height: 40%;
+    width: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.footer__contact__header h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    align-self: center;
+}
+
+.footer__contacts {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contact {
+    width: 100%;
+    height: 30%;
+}
+
+.footer__social__link__container {
+    width: 300px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.footer__social__link__header {
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.footer__social__link__header h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    align-self: center;
+}
+
+.footer__social__links {
+    margin: 0%;
+    padding: 0%;
+    height: 70%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.social__link {
+    width: 12%;
+}
+
+.fotter__copyright__container {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: #FFE26E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

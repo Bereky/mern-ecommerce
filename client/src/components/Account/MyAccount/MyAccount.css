@@ -1,0 +1,62 @@
+
+.order__history__container {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.order__history {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.order__history__header {
+    width: 100%;
+    height: 50px;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.order__history__detail {
+    width: 100%;
+    height: 50px;
+}
+
+.account__details__container {
+    width: 30%;
+    height: 200px;
+}
+
+.account__details__header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 780px) {
+    .account__details__header {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+}
+
+.details__header {
+    width: 80%;
+    height: auto;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.logout__action {
+    width: 20%;
+    height: auto;
+}
