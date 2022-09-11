@@ -34,8 +34,6 @@ const Cart = () => {
     const handleCheckoutOpen = () => setOpenCheckoutModal(true);
     const handleCheckoutClose = () => setOpenCheckoutModal(false);
 
-    const [ checkoutSuccess, setCheckoutSuccess ] = useState(false)
-
     const cartItems = useContext(CartItemsContext);
 
     const handleCheckout = async () => {
