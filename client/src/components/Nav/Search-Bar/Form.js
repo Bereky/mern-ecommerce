@@ -8,12 +8,8 @@ import { SearchContext } from '../../../Context/SearchContext';
 const Form = () => {
     const [ searchInput, setSearchInput] = useState('')
     const searchContext = useContext(SearchContext)
-    const [ searchParam, setSearchParam ] = useSearchParams()
     const navigate = useNavigate()
 
-    const search = {
-        query: searchContext.searchQuery
-    }
     const handelChange = (e) => {
         setSearchInput(e.target.value)
     }
@@ -22,7 +18,6 @@ const Form = () => {
         e.preventDefault()
         searchContext.setSearchQuery(searchInput)
         navigate('/search')
-        /* setSearchParam(search, { replace: true }) */
     }
 
     return ( 
