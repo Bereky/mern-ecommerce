@@ -1,6 +1,6 @@
 # MERN Ecommerce Application
 
-<code style="color: red">Currently under construction for additional features</code>
+<code>Currently under construction for additional features</code>
 
 # Description
 
@@ -8,10 +8,6 @@ Full-stack ecommerce application built with MERN stack. This project has two fea
 
 1. Buyers register and browse the marketplace while interacting with products across different categories.
 2. Admins control and manage the marketplace items and customer acounts.
-
-# Demo
-
-Preview the project with [Live Demo](https://timely-lokum-191a6b.netlify.app)
 
 # Getting Started
 
