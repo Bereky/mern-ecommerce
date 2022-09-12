@@ -1,6 +1,6 @@
 # MERN Ecommerce Application
 
-<code style="color: red">Currently under construction for additional features</code>
+<code>Currently under construction for additional features</code>
 
 # Description
 
@@ -53,5 +53,3 @@ After this you can run the project locally:
 - [Expressjs](https://expressjs.com)
 - [Mongoose](https://mongoosejs.com)
 - [Material UI](https://mui.com/)
-
-### This project is open for contribution
