@@ -45,7 +45,6 @@ const Cart = () => {
 
         await axios.post("http://localhost:5000/api/payment", config)
             .then((res) => {
-                    /* navigate(res.data.url) */
                     console.log(res.data)
                     window.location.replace(res.data)
                     handleCheckoutOpen()
