@@ -11,7 +11,7 @@ const Home = () => {
     TabTitle("Home - Shema");
 
     useEffect(() => {
-        axios.get("https://shema-ecommerce.herokuapp.com/api/items")
+        axios.get("https://shema-backend.vercel.app/api/items")
             .then(res => setFeaturedItems(res.data))
             .catch(err => console.log(err))
 
