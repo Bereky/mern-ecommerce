@@ -16,11 +16,11 @@ const ProductCarousel = (props) => {
                 <img className="carousel__image" src={`https://shema-backend.vercel.app/public/${props.item.category}/${props.item.image[1].filename}`} alt="item"/>
               </div>
             </Carousel.Item>   
-            <Carousel.Item>
+            {/* <Carousel.Item>
             <div className="carousel__image__container">
                 <img className="carousel__image" src={`https://shema-backend.vercel.app/public/${props.item.category}/${props.item.image[2].filename}`} alt="item"/>
               </div>
-            </Carousel.Item>
+            </Carousel.Item> */}
           </Carousel>
         </div>
       </div>
