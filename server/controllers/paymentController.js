@@ -11,6 +11,12 @@ const initializePayment = async (req, res) => {
         }
     }
 
+    // Validate amount server-side (client-supplied amount is a CRITICAL vuln)
+    const amount = parseFloat(req.body.amount);
+    if (!amount || amount !== amount || amount <= 0) {
+        return res.status(400).json({ error: 'Invalid payment amount' });
+    }
+
     // chapa redirect you to this url when payment is successful
     const CALLBACK_URL = "http://localhost:3000"
 
@@ -19,7 +25,7 @@ const initializePayment = async (req, res) => {
 
     // form data
     const data = {
-        amount: req.body.amount, 
+        amount: amount,
         currency: 'ETB',
         email: 'ato@ekele.com',
         first_name: 'Ato',
